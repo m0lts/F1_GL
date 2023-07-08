@@ -1,0 +1,47 @@
+.RaceBanner {
+    position: absolute;
+    top:100px;
+    z-index: 100;
+    font-family: 'Titillium Web', sans-serif;
+    width:100%;
+    background-color: var(--dark-grey);
+    height: 250px;
+    padding:25px 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:none;
+    border-radius: 0 0 10px 10px;
+}
+.RaceBanner:hover {
+    cursor: pointer;
+}
+
+.CircuitInfo-cont {
+    width:75%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Race-country {
+    color: var(--white);
+    font-size: 3rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.Banner-flag-cont {
+    width:25%;
+    height:auto;
+    overflow: hidden;
+}
+
+.Banner-flag {
+    width:100%;
+    height:100%;
+}
+
+.fa-chevron-right {
+    color: var(--white);
+}

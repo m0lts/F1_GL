@@ -1,0 +1,20 @@
+.Time-banner {
+    position: absolute;
+    top:325px;
+    z-index:10;
+    background-color: var(--green);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap:25px;
+    width:100%;
+    padding:15px 0;    
+    height:75px;
+    border-radius: 0 0 10px 10px;
+}
+
+.Timer-to-race {
+    color:var(--white);
+    font-size: 1.25rem;
+    font-weight: 600;
+}

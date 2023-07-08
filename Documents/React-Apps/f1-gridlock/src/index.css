@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --red:#ff0000bc;
+  --blue:#0036faa6;
+  --black:#141414;
+  --grey:#a9a9a9;
+  --dark-grey:#414141;
+  --light-grey:#ededed;
+  --white:#ffffff;
+  --transparent-white:#f8f8f883;
+  --grey-hover:#e2e2e2;
+  --green:#209500;
+}
+
+body {
+  box-sizing: border-box;
+  padding:0;
+  margin: 0;
+  font-family: 'Titillium Web', sans-serif;;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

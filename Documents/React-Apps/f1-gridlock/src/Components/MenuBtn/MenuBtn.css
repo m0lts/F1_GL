@@ -1,0 +1,16 @@
+.MenuBtn {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.1rem;
+    border:none;
+    background: none;
+    padding:5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.MenuBtn:hover {
+    background: #e4e4e4;
+}
+.MenuBtn:active {
+    text-decoration: underline;
+}
